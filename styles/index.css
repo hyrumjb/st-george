@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    color: rgb(40, 40, 40);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 250, 235, 0.8);
+}
+
+header {
+    border-bottom: 0.5px solid rgba(40, 40, 40, 0.5);
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 250, 235, 0.9);
+    margin: 0 auto;
+}
+
+svg:hover {
+    fill: rgba(40, 40, 40, 0.5);
+    cursor: pointer;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-item {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+.right-item {
+    margin: 0 10vw 0 0;
+}
+
+.left-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 90vw;
+    margin: 0 0 0 10vw;
+}
+
+.left-item {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.hover-test:hover {
+    cursor: pointer;
+    fill: rgba(40, 40, 40, 0.5);
+    color: rgba(40, 40, 40, 0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(40, 40, 40, 0.5);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(160, 82, 45, 0.8);
+    padding: 20px 0 60px;
+}
+
+.bottom-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 10vw 20px;
+}
+
+h2 {
+    color: white;
+}
+
+.chunk1 {
+    background-image: url("../images/red-rocks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    font-size: 66px;
+}
+
+.chunk2 {
+    background-image: url("../images/green-trees2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 70vh;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    padding-right: 2rem;
+    font-size: 66px;
+    text-align: right;
+}
+
+.chunk3 {
+    background-image: url("../images/that-sun2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    font-size: 66px;
+}
+
+.content {
+    padding: 20px 0;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+iframe {
+    margin: 20px 0 0 0;
+    width: 80vw;
+    height: 45vw;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 24px;
+    }
+}
